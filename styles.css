@@ -59,6 +59,8 @@ html {
     position: relative;
     border: dashed;
     height: 100px;
+    background-color: lightsalmon;
+    z-index: 1;
 }
 
 .box2 {
@@ -67,6 +69,7 @@ html {
     width: 80%;
     top: 25px;
     left: 60px;
+    z-index: 3;
 }
 
 .box3 {
@@ -77,9 +80,68 @@ html {
     top: -30px;
     height: 80px;
     opacity: .8;
+    z-index: 2;
 }
 
+/*** MODAL ***/
 
+/*** Modal header ***/
+
+.modal-header {
+    padding: 5px 15px;
+    background-color: darkblue;
+    color: #fff;
+}
+
+/*** Modal body ***/
+
+.modal-body {
+    padding: 5px 15px;
+}
+
+/*** Modal footer ***/
+
+.modal-footer {
+    padding: 5px 15px;
+    background-color: aquamarine;
+    color: darkgreen;
+}
+
+/*** Modal content ***/
+
+.modal-content {
+    position: relative;
+    background-color: blanchedalmond;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #000;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.close {
+    color: #333;
+    position: absolute;
+    top: -2%;
+    right: 1%;
+    transition: all .3s;
+}
+
+.close:hover {
+    color: lawngreen;
+    cursor: pointer;
+}
 
 
 
