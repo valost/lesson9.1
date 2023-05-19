@@ -8,14 +8,47 @@ body,
 html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 24px;
+    height: 1200px;
+}
+
+.parent-element {
+    position: relative;
+    top: 10px;
+    background-color: lightcoral;
+    margin-top: 100px;
+    padding: 25px;
 }
 
 .main-element {
     background-color: lightblue;
     padding: 10px;
-    position: absolute;
-    top: 30px;
-    left: 40px;
+    position: sticky;
+    top: 15px;
+    left: 300px;
+}
+
+.sibling-element {
+   /* position: absolute;
+    top: 0;
+    right: 0; */
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+}
+
+.to_top {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: darkcyan;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
 }
 
 
