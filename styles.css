@@ -15,7 +15,6 @@ html {
     position: relative;
     top: 10px;
     background-color: lightcoral;
-    margin-top: 100px;
     padding: 25px;
 }
 
@@ -51,8 +50,34 @@ html {
     right: 25px;
 }
 
+.wrapper {
+    position: relative;
+    /* top: 3px; */
+}
 
+.box1 {
+    position: relative;
+    border: dashed;
+    height: 100px;
+}
 
+.box2 {
+    position: absolute;
+    background-color: lightslategray;
+    width: 80%;
+    top: 25px;
+    left: 60px;
+}
+
+.box3 {
+    position: absolute;
+    background-color: lightgreen;
+    width: 25%;
+    left: 65%;
+    top: -30px;
+    height: 80px;
+    opacity: .8;
+}
 
 
 
